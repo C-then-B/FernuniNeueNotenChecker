@@ -1,9 +1,32 @@
 # FernuniNeueNotenChecker
-Checks the Website of Fernuni Hagen for new Grades...
 
-You need to provide an env.py file with settings for your mailprovider/mailserver, the recipient emailadress and your login credentials.
+Original work by: https://github.com/gjelsas
 
-The code is commented in german, where it is commented at all...
+Simple terminal app to poll FernUni Hagen for new grades.
+Uses Selenium.
 
--> Bitte setzt das Refresh Intervall nicht zu hoch, damit die Last auf dem Server nicht zu sehr ansteigt. <-
-Bitte setzt dieses Script verantwortungsvoll ein. Please use this tool responsibly. 
+# How to
+
+## 1. Create a python environment
+
+#### Windows
+`python -m venv venv`
+
+#### Linux/Mac
+`python3 -m venv venv`
+
+## 2. Activate the python environment
+
+#### Windows
+`venv\Scripts\activate`
+
+#### Linux/Mac
+`source venv/bin/activate`
+
+## 3. Install dependencies
+
+`pip install -r requirements.txt`
+
+## 4. Run the script
+
+`python main.py`
